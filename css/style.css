@@ -1,18 +1,38 @@
 html, body {
   margin: 0 auto;
   width: 100%;
-  font-family: Arial, serif; }
+  font-family: Arial, serif;
+  background-color: #D5D5D5; }
+
+ul {
+  display: block;
+  padding-left: 25px;
+  margin-left: 0;
+  padding-top: 20px;
+  box-sizing: border-box;
+  margin-top: 0; }
 
 ul li {
   display: inline-block;
   font-size: 20px;
-  margin-left: 10px;
-  padding-left: 0; }
+  margin-right: 30px;
+  color: #7C7C7C; }
+
+.selected {
+  color: black; }
+
+.logo {
+  color: #7C7C7C; }
+
+.container {
+  max-width: 478px;
+  margin: 0 auto;
+  background-color: white; }
 
 .main-img {
   min-height: 200px;
   background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/responsive-site/master/background.jpg);
-  background-size: cover;
+  background-size: auto auto;
   background-repeat: no-repeat;
   max-width: 100%;
   margin: 0 auto; }
@@ -115,12 +135,11 @@ button {
 .text-footer {
   background-color: #0E0E0E;
   color: #545454;
-  min-height: 120px;
-  padding-top: 40px;
+  min-height: 75px;
+  padding-top: 20px;
   box-sizing: border-box; }
 
 .txt-wrapper {
-  max-width: 940px;
   margin: 0 auto;
   text-align: center;
   font-size: 18px; }
