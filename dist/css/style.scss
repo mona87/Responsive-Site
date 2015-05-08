@@ -271,4 +271,63 @@ button{
 
 }
 
+@media (min-width: 767px){
+
+	.container{
+
+		// max-width: 767px;
+	}
+
+
+
+	.column-wrapper{
+		
+		overflow: hidden;
+		max-width: 100%;
+		margin: 0 auto;
+		
+
+		
+		// font-size: 1px;
+		
+	}
+
+
+
+	.personal, .business, .enterprise{
+
+		
+	
+		width: 33.33%;
+		float: left;
+
+
+
+	}
+
+
+.price-box .per-month{
+
+	font-size: 22px;
+}
+
+.content{
+
+	 max-width: 100%;
+	 // border: 1px solid red;
+	 overflow: hidden;
+	 margin: 0 auto;
+}
+
+.txt-box-1, .txt-box-2, .txt-box-3, .txt-box-4{
+
+	width: 50%;
+	float: left;
+	// border: 1px solid green;
+	padding: 0 40px 0 40px;
+
+
+}
+
+}
 
