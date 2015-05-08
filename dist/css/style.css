@@ -187,3 +187,9 @@ button {
     width: 50%;
     float: left;
     padding: 0 40px 0 40px; } }
+
+@media (min-width: 979px) {
+  .container {
+    max-width: 100%; }
+  .column-wrapper, .content {
+    max-width: 979px; } }

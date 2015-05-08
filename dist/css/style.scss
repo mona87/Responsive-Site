@@ -331,3 +331,18 @@ button{
 
 }
 
+@media (min-width: 979px){
+
+	.container{
+
+		max-width: 100%;
+	}
+
+
+	.column-wrapper, .content{
+
+		max-width: 979px;
+		// border: 1px solid red;
+	}
+
+}
