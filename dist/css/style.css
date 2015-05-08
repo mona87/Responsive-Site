@@ -168,28 +168,3 @@ button {
     left: 0;
     bottom: 0;
     right: 0; } }
-
-@media (min-width: 767px) {
-  .column-wrapper {
-    overflow: hidden;
-    max-width: 100%;
-    margin: 0 auto; }
-  .personal, .business, .enterprise {
-    width: 33.33%;
-    float: left; }
-  .price-box .per-month {
-    font-size: 22px; }
-  .content {
-    max-width: 100%;
-    overflow: hidden;
-    margin: 0 auto; }
-  .txt-box-1, .txt-box-2, .txt-box-3, .txt-box-4 {
-    width: 50%;
-    float: left;
-    padding: 0 40px 0 40px; } }
-
-@media (min-width: 979px) {
-  .container {
-    max-width: 100%; }
-  .column-wrapper, .content {
-    max-width: 979px; } }
