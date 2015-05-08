@@ -1,0 +1,153 @@
+html, body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: Arial, serif;
+  background-color: #D5D5D5; }
+
+ul {
+  display: block;
+  padding-left: 25px;
+  margin-left: 0;
+  padding-top: 20px;
+  box-sizing: border-box;
+  margin-top: 0; }
+
+ul li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 30px;
+  color: #7C7C7C; }
+
+.selected {
+  color: black; }
+
+.logo {
+  color: #7C7C7C; }
+
+.container {
+  max-width: 478px;
+  margin: 0 auto;
+  background-color: white; }
+
+.main-img {
+  min-height: 200px;
+  background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/responsive-site/master/background.jpg);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  margin: 0 auto; }
+
+.main-img span {
+  color: white;
+  font-size: 40px;
+  display: block;
+  padding-top: 50px;
+  text-align: center; }
+
+.personal, .business, .enterprise, .content {
+  margin: 0 auto;
+  display: block;
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  text-align: center; }
+
+.personal .price-box {
+  min-height: 200px;
+  background-color: #478338;
+  margin-top: 50px;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid #478338; }
+
+.name {
+  color: white;
+  font-size: 21px; }
+
+.cost {
+  color: white;
+  font-size: 80px; }
+
+.price-box .per-month {
+  color: #9ABE93;
+  font-size: 22px; }
+
+.text-block {
+  min-height: 50px;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #E1E1E1;
+  border-left: 1px solid #E1E1E1;
+  border-right: 1px solid #E1E1E1;
+  padding-top: 15px;
+  box-sizing: border-box; }
+
+.choose-block {
+  min-height: 75px;
+  border-bottom: 1px solid #E1E1E1;
+  border-left: 1px solid #E1E1E1;
+  border-right: 1px solid #E1E1E1;
+  padding-top: 25px;
+  box-sizing: border-box; }
+
+button {
+  border-radius: 10px;
+  border: 1px solid #E1E1E1;
+  background-color: white; }
+
+.business .price-box {
+  min-height: 200px;
+  background-color: #213576;
+  margin-top: 50px;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid #213576; }
+
+.business .per-month {
+  color: white; }
+
+.enterprise .price-box {
+  min-height: 200px;
+  background-color: #0E0E0E;
+  margin-top: 50px;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid #0E0E0E; }
+
+.enterprise .per-month {
+  color: white; }
+
+.content {
+  text-align: left;
+  padding-top: 50px;
+  margin: 0 20px; }
+
+.txt-box-1, .txt-box-2, .txt-box-3, .txt-box-4 {
+  margin: 0 auto 50px auto;
+  max-width: 940px; }
+
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: inline-block; }
+
+.text-footer {
+  background-color: #0E0E0E;
+  color: #545454;
+  min-height: 75px;
+  padding-top: 20px;
+  box-sizing: border-box; }
+
+.txt-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px; }
+
+.txt-wrapper span span {
+  color: white;
+  text-decoration: underline; }
+
+.txt-wrapper span {
+  display: inline-block;
+  margin-bottom: 10px; }
