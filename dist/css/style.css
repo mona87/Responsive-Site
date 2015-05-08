@@ -7,7 +7,7 @@ html, body {
 ul {
   display: block;
   padding-left: 25px;
-  margin-left: 0;
+  margin-left: 0 auto;
   padding-top: 20px;
   box-sizing: border-box;
   margin-top: 0; }
@@ -25,7 +25,7 @@ ul li {
   color: #7C7C7C; }
 
 .container {
-  max-width: 478px;
+  max-width: 100%;
   margin: 0 auto;
   background-color: white; }
 
@@ -151,3 +151,20 @@ button {
 .txt-wrapper span {
   display: inline-block;
   margin-bottom: 10px; }
+
+@media (min-width: 478px) {
+  .main-img {
+    min-height: 400px;
+    position: relative; }
+  .main-img span {
+    padding-top: 0;
+    text-align: none;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    bottom: 0;
+    right: 0; } }
